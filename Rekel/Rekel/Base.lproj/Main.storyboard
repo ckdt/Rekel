@@ -32,11 +32,6 @@ and sell vintage kids clothing</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" background="FieldSet Background" translatesAutoresizingMaskIntoConstraints="NO" id="4ZC-qp-7EY">
-                                <rect key="frame" x="16" y="263" width="568" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-YK-kXn">
                                 <rect key="frame" x="163" y="309" width="274" height="54"/>
                                 <state key="normal" image="Register Button">
@@ -62,6 +57,11 @@ and sell vintage kids clothing</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" background="FieldSet Background" translatesAutoresizingMaskIntoConstraints="NO" id="4ZC-qp-7EY">
+                                <rect key="frame" x="16" y="263" width="568" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.20392156862745098" blue="0.33725490196078434" alpha="1" colorSpace="deviceRGB"/>
                     </view>
