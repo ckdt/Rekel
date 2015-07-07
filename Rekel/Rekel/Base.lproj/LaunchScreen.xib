@@ -10,14 +10,14 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Copyright (c) 2015 Rekel Team. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Rekel Team. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="0.0" y="0.0" width="396" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rekel" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
-                    <rect key="frame" x="20" y="140" width="441" height="43"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rekel" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="0.0" y="0.0" width="93" height="43"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -28,10 +28,14 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Q2L-MG-HSa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yse-aL-cdx"/>
-                <constraint firstAttribute="trailing" secondItem="Q2L-MG-HSa" secondAttribute="trailing" constant="-8" id="apK-Tg-1pR"/>
-                <constraint firstItem="Q2L-MG-HSa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fV1-Xp-a82"/>
-                <constraint firstAttribute="bottom" secondItem="Q2L-MG-HSa" secondAttribute="bottom" constant="-14" id="sdJ-zD-g6U"/>
+                <constraint firstItem="Q2L-MG-HSa" firstAttribute="top" secondItem="8ie-xW-0ye" secondAttribute="top" id="3KU-MY-dpg"/>
+                <constraint firstAttribute="trailing" secondItem="Q2L-MG-HSa" secondAttribute="trailing" constant="-8" id="8se-xS-bYs"/>
+                <constraint firstItem="Q2L-MG-HSa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GOa-hy-a86"/>
+                <constraint firstAttribute="bottom" secondItem="Q2L-MG-HSa" secondAttribute="bottom" constant="-14" id="Pf9-mk-NXG"/>
+                <constraint firstItem="Q2L-MG-HSa" firstAttribute="leading" secondItem="8ie-xW-0ye" secondAttribute="leading" id="Wle-KV-vxt"/>
+                <constraint firstItem="Q2L-MG-HSa" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="top" id="XJ4-jv-4j4"/>
+                <constraint firstItem="Q2L-MG-HSa" firstAttribute="leading" secondItem="kId-c2-rCX" secondAttribute="leading" id="xdf-nD-XDC"/>
+                <constraint firstItem="Q2L-MG-HSa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zt8-Ly-Mc8"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
